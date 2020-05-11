@@ -1,4 +1,4 @@
-FROM dasctfpwn/pwn_ubuntu1904_xinetd_chroot_readflag
+FROM dasctfbase/pwn_ubuntu1904_xinetd_chroot_readflag
 
 # 拷贝二进制文件
 COPY ./src/pwn /home/ctf/pwn
